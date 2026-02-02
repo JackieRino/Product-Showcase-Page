@@ -1,0 +1,142 @@
+body{
+width: 100vw;
+height: 100vh;
+background-color:rgb(168, 97, 46);
+margin: 0;
+/*display: block;
+justify-content: center;
+align-items: center; */
+
+
+}
+
+nav {
+    background-color:rgb(218, 184, 140);
+    border: 5px solid black;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    padding:20px;
+    
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+    list-style-type: none;
+}
+.socials {
+    color: #000;
+}
+.socials:hover {
+    text-decoration: dotted;
+}
+.socials:visited {
+    color: white;
+}
+
+.nav-links  {
+    color: rgb(178, 105, 2);
+    /*change unvisited and visited colors*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+
+.nav-links:visited{
+    color:black;
+    /*accessibility: you need to tell visisted links apart using more than just color*/
+}
+
+.nav-links:active, .socials:active {
+    color:rgb(243, 6, 6);
+}
+
+h1{
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:20px;
+    font-size: 80px;
+}
+
+
+.home-image {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    margin: 0 auto;
+    border: 2px solid black;
+
+
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;  
+    
+}
+
+footer{
+    text-align: center;
+    width: auto;
+    border: 2px double burlywood;
+}
+    /*
+p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+button{
+    padding: 5px 5px;
+    boarder-radius: 5px;
+    background-color:beige;
+    border: yes;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#highlight{
+    text-align: center;
+    border-radius:5px ;
+
+}
+
+#highlight img {
+    width:12.5%;
+    height:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#feature1 img {
+  width:12.5%;
+    height:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#feature1 {
+    text-align: center;
+
+}
+
+ul{
+    
+    font-size: 28px;
+    font-family: fantasy;
+}

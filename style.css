@@ -13,6 +13,9 @@ align-items: center; */
 }
 
 @media (min:width:600px){
+    h1 {
+        font-size:5rem;
+    }
 }    
 
 nav {
@@ -60,12 +63,13 @@ li {
     color:rgb(243, 6, 6);
 }
 
-/*h1{
+h1{
     text-align:center;
     margin-top:10px;
     margin-bottom:20px;
-    font-size: 80px;
-}*/
+    font-size: 1.8rem;
+    /*font-size:clamp (2rem, 6vw, 5rem);*/
+}
 
 
 .home-image {
@@ -146,5 +150,6 @@ ul{
     font-family: fantasy;
 
 }
+
 
 
